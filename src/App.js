@@ -3,6 +3,14 @@ import "./App.css";
 import one from "./assets/img/1.png";
 import two from "./assets/img/2.png";
 import three from "./assets/img/3.png";
+import cash from "./assets/img/cash.png";
+import coin from "./assets/img/coin.png";
+import laptop from "./assets/img/laptop.png";
+import magnet from "./assets/img/magnet.png";
+import rocket from "./assets/img/rocket.png";
+import hands from "./assets/img/hands.png";
+import phone from "./assets/img/phone.png";
+// import chat from "./assets/img/chat.png";
 
 function App() {
   return (
@@ -16,13 +24,18 @@ function App() {
               Money Habits
             </h1>
             <Button className="learn-now">Learn Now</Button>
+            <img className="laptop" src={laptop} alt="" />
+            <img className="coin" src={coin} alt="" />
           </div>
           <div className="ZuAcademy">
             <h2>At ZuAcademy</h2>
+            <img className="cash" src={cash} alt="" />
             <p>
               Est Lorem anim fugiat aute aliquip adipisicing ea in ea et id
               deserunt nisi non.
             </p>
+            <img className="rocket" src={rocket} alt="" />
+            <img className="magnet" src={magnet} alt="" />
           </div>
           <div className="pay-to-learn">
             <h2>Pay to Learn</h2>
@@ -59,7 +72,7 @@ function App() {
           <Container>
             {" "}
             <div className="practice">
-              <h2>Practice on the App</h2>
+              <h2 className="font-face-greb">Practice on the App</h2>
               <p>
                 Exercitation nostrud excepteur ipsum enim sint aliquip voluptate
                 aute mollit pariatur do pariatur.
@@ -68,11 +81,15 @@ function App() {
                 {" "}
                 <Button className="download">Download App</Button>
               </div>
+              <img className="phone" src={phone} alt="" />
+              <img className="hands" src={hands} alt="" />
             </div>
           </Container>
 
           <Container className="tweetsec">
-            <h2>Here from Parents</h2>
+            {/* <img className="chat" src={chat} alt="" /> */}
+
+            <h2 className="font-face-greb">Here from Parents</h2>
             <div className="tweets">
               <Row style={{ margin: "auto" }}>
                 <Col sm={4}>
@@ -122,13 +139,14 @@ function App() {
                   </blockquote>
                 </Col>
               </Row>
+              
             </div>
           </Container>
         </Container>
-        <Container className="community">
+        <div className="community font-face-greb">
           <h2>Join our Community</h2>
           <Button className="learn-now">Join</Button>
-        </Container>
+        </div>
       </div>
     </>
   );

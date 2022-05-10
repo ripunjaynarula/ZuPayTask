@@ -1,12 +1,70 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
+.App img{
 
+width: 60%;}
 
+.laptop{
+  width: 60% !important;
+  right:0;
+  bottom:0;
+  z-index:-2 ;
+  position: absolute;
+}
+.coin{
+  left:0;
+  width: 60%;
+  bottom:0;
+  z-index:-2 ;
+  position: absolute;
+}
+.cash{
+  width: 60%;
+  top:110vh;
+  right: 0;
+  z-index:-2 ;
+  position: absolute;
+}
+.rocket{
+  width: 60%;
+  left:0;
+  top:120vh;
+  z-index:-2 ;
+  position: absolute;
+}
+.magnet{
+  right:0;
+  top:140vh;
+  z-index:-2 ;
+  position: absolute;
+}
+
+.phone{
+  right:0;
+  top:360vh;
+  z-index:-2 ;
+  position: absolute;
+}
+.hands{
+  right:0;
+  top:360vh;
+  z-index:-2 ;
+  position: absolute;
+}
+.chat{
+  left:0;
+  top:413vh;
+  z-index:-2 ;
+  position: absolute;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  z-index:-2 ;
+  position: absolute;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -55,7 +113,7 @@
 }
 
 .hero h1 {
-  font-family: Inter;
+  font-family:inter !important;
   font-size: 6vw !important;
   font-weight: 700 !important;
   color: white;
@@ -83,13 +141,13 @@
 }
 
 .ZuAcademy {
-  height: 80vh;
+  height: 100vh;
   margin-bottom: 2%;
 
 }
 
 .ZuAcademy h2 {
-  font-family: Inter;
+  /* font-family:inter !important; */
   font-size: 50px !important;
   font-weight: 700 !important;
   color: white;
@@ -97,7 +155,7 @@
 }
 
 .ZuAcademy p {
-  font-family: Inter;
+  font-family:inter !important;
   font-size: 25px !important;
   color: white;
   text-align: center;
@@ -108,12 +166,12 @@
 }
 
 .pay-to-learn {
-  height: 80vh;
+  height: 100vh;
 
 }
 
 .pay-to-learn h2 {
-  font-family: Inter;
+  /* font-family:inter !important; */
   font-size: 50px !important;
   font-weight: 700 !important;
   color: white;
@@ -121,7 +179,7 @@
 }
 
 .pay-to-learn p {
-  font-family: Inter;
+  font-family:inter !important;
   font-size: 25px !important;
   color: white;
   text-align: center;
@@ -141,7 +199,7 @@
 }
 
 .practice h2 {
-  font-family: Inter;
+  /* font-family:inter !important; */
   font-size: 50px !important;
   font-weight: 700 !important;
   color: white;
@@ -151,7 +209,7 @@
 }
 
 .practice p {
-  font-family: Inter;
+  font-family:inter !important;
   font-size: 25px !important;
   color: white;
   margin-top: 3%;
@@ -183,11 +241,12 @@
 .tweetsec {
   height: 80vh;
   margin-bottom: 2%;
-
+  margin-top:10%;
+  height: 100vh;
 }
 
 .tweetsec h2 {
-  font-family: Inter;
+  /* font-family:inter !important; */
   font-size: 50px !important;
   font-weight: 700 !important;
   color: white;
@@ -213,7 +272,6 @@ blockquote.twitter-tweet {
   margin: 10px 5px !important;
   padding: 0 16px 16px 16px !important;
   max-width: 50% !important;
-  height: 20vh !important;
   position: absolute;
 }
 
@@ -236,16 +294,18 @@ blockquote.twitter-tweet a:focus {
 }
 
 .community h2 {
-  font-family: Inter;
+  
   font-size: 50px !important;
   font-weight: 700 !important;
-  color: white;
+  color: #6947bf;
   text-align: center;
 }
 
 .community {
+  padding-top: 7%;
   height: 50vh;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: white !important;
+
 }
 
 @media only screen and (max-width: 600px) {
