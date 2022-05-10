@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/zupay/static/css/main.8ada0b3d.css",
+    "main.js": "/zupay/static/js/main.8acede1d.js",
+    "static/js/787.f1b3bf6a.chunk.js": "/zupay/static/js/787.f1b3bf6a.chunk.js",
+    "static/media/laptop.png": "/zupay/static/media/laptop.35d4740a6c6f408d0b18.png",
+    "static/media/phone.png": "/zupay/static/media/phone.f2f0da3068317af2d94a.png",
+    "static/media/rocket.png": "/zupay/static/media/rocket.b309fb8dcdd1261596b3.png",
+    "static/media/hands.png": "/zupay/static/media/hands.677d155f54e5bb516ebf.png",
+    "static/media/3.png": "/zupay/static/media/3.8635e853e33dbd2a4a23.png",
+    "static/media/1.png": "/zupay/static/media/1.83d05388d54c06184894.png",
+    "static/media/coin.png": "/zupay/static/media/coin.29bd7c84e0149bfb1314.png",
+    "static/media/magnet.png": "/zupay/static/media/magnet.ca6379c966c3f3b89719.png",
+    "static/media/2.png": "/zupay/static/media/2.19e4236d60e40910390a.png",
+    "static/media/cash.png": "/zupay/static/media/cash.5a97a31790a8f6787539.png",
+    "static/media/Gilroy-ExtraBold.otf": "/zupay/static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
+    "static/media/Gilroy-Light.otf": "/zupay/static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
+    "index.html": "/zupay/index.html",
+    "static/media/Zupay.svg": "/zupay/static/media/Zupay.8252cd53ebdcd761e30065edb6904b0f.svg",
+    "main.8ada0b3d.css.map": "/zupay/static/css/main.8ada0b3d.css.map",
+    "main.8acede1d.js.map": "/zupay/static/js/main.8acede1d.js.map",
+    "787.f1b3bf6a.chunk.js.map": "/zupay/static/js/787.f1b3bf6a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ada0b3d.css",
+    "static/js/main.8acede1d.js"
+  ]
+}
